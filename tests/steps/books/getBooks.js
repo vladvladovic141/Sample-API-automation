@@ -4,7 +4,7 @@ export async function getBooks() {
     it('Retrieve list of all books', async function () {
         await request(this, 'GET', `/books?`, undefined, true,
             {
-                statusCode: 304,
+                statusCode: 200,
                 // expectedValues: [
                 //     {path: '0.id', value: 10},
                 //     {path: '6.id', value: 7},
