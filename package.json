@@ -8,7 +8,8 @@
     "posts": "mocha 'tests/scenarios/user/posts.js' --reporter mochawesome --timeout 20000",
     "user-negative": "mocha 'tests/scenarios/user/negative.js' --reporter mochawesome --timeout 20000",
     "todo": "mocha 'tests/scenarios/todo/todo.js' --reporter mochawesome --timeout 20000",
-    "todo-negative": "mocha 'tests/scenarios/todo/negative.js' --reporter mochawesome --timeout 20000"
+    "todo-negative": "mocha 'tests/scenarios/todo/negative.js' --reporter mochawesome --timeout 20000",
+    "books": "mocha tests/scenarios/books/**.js --reporter mochawesome --timeout 20000"
   },
   "author": "Aleksejs Levenciks",
   "license": "ISC",
